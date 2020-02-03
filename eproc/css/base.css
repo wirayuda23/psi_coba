@@ -1,0 +1,88 @@
+html,body{
+	background: #EEE;
+	background: url(../img/headerbg.png) center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.clearfix{clear: both;}
+@font-face{
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand-Regular.otf);
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand-Bold.otf);
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face{
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand-Italic.otf);
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face{
+	font-family: Quicksand;
+	src: url(../fonts/Quicksand-BoldItalic.otf);
+	font-style: italic;
+	font-weight: normal;
+}
+*{}
+/*a{
+	text-decoration: inherit;
+	color: inherit;
+}*/
+.left{float: left;}
+.right{float: right;}
+nav{font-family: Quicksand;
+	width: 100%;
+	position: fixed;
+	background: #333;
+	box-shadow: rgba(0,0,0,0.4) 0 0 15px 0;
+	z-index: 999;
+}
+nav>div{margin: 0 50px;}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav ul li{
+	color:#DDD;
+	display: inline;
+	padding: 10px 15px;
+}
+nav ul li:hover{
+	background: #444;
+	color: #FFF;
+	cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+     -moz-transition: all 0.3s ease-out;
+       -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+}
+.not-nav{padding-top: 38px;}
+main{
+	background: rgba(255,255,255,0.9);
+	padding: 20px 10% 50px 10%;
+	min-height: 550px;
+	margin-bottom: 10px;
+}
+footer{
+	height: 670px;
+	text-align: center;
+	color: rgba(180,180,180,0.8);
+	background: rgba(42,40,40,0.66);
+}
+footer>div{
+	padding: 100px 0 0 0;
+}
+footer img{
+	opacity: 0.2;
+	height: 250px;
+	margin: 50px;
+}
